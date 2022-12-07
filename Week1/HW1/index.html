@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h2>Sign Up</h2>
+    <form method="POST">
+      <div>
+        <input
+          class="short"
+          type="text"
+          name="firstName"
+          placeholder="First Name"
+          required
+        />
+        <input
+          class="short"
+          type="text"
+          name="lastName"
+          placeholder="Last Name"
+          required
+        />
+      </div>
+      <div>
+        <input
+          class="long"
+          type="tel"
+          name="phone"
+          placeholder="Mobile Number"
+          required
+        />
+      </div>
+      <div>
+        <input
+          class="long"
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          required
+        />
+      </div>
+      <div>
+        <input
+          class="short"
+          type="password"
+          name="password1"
+          placeholder="Password"
+          required
+        />
+        <input
+          class="short"
+          type="password"
+          name="password2"
+          placeholder="Confirm Password"
+          required
+        />
+      </div>
+      <div>
+        <div class="left">
+          <input type="checkbox" name="agree" required />
+        <label>I Agree</label>
+        </div>
+        <div>
+          <p>
+            By clicking<span class="register inline"> Register </span>, you agree
+            to the <span class="terms">Terms and Conditions </span>set out by this
+            site, including our Cookie use.
+          </p>
+        </div>
+      </div>
+      <div>
+        <input
+          class="buttons register"
+          id="register"
+          type="submit"
+          value="Register"
+        />
+        <input class="buttons login" type="button" value="Sign in" />
+      </div>
+    </form>
+  </body>
+</html>
