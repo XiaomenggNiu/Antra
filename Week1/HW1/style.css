@@ -1,0 +1,57 @@
+body{
+    font-family: 'Open Sans', Arial;
+    max-width: 500px;
+}
+input{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+h2{
+    text-align: center;
+}
+form{
+    margin: auto;
+}
+label{
+    font-weight: bold;
+}
+/* input fields */
+.short{
+    width: 41%;
+}
+.long{
+    width: 90%;
+}
+/* checkbox */
+.left{
+    float: left;
+    width: fit-content;
+    margin-right: 10px;
+}
+ /* inline element  */
+ .inline{
+    border-radius: 5px;
+ }
+.terms{
+    color: blue;
+}
+/* buttons */
+.buttons{
+    border: none;
+    color: white;
+    width: 46%;
+}
+.register{
+    color: white;
+    background-color: rgb(4, 154, 214);
+}
+.login{
+    background-color: rgb(20, 191, 111);
+}
+/* hover effect */
+.register:hover, .terms:hover, .buttons:hover{
+    cursor: pointer;
+}
