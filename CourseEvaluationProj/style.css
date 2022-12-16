@@ -1,12 +1,16 @@
 main{
     display: flex;
 }
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 h2{
     text-align: center;
 }
 div{
-    height: 300px;
     width: 200px;
+    height: 300px;
     overflow-y: scroll;
     border: 2px solid;
     text-align: center;
@@ -15,24 +19,25 @@ section{
     text-align: center;
 }
 table{
-    width: 100%;
     border-collapse: collapse;
-}
-td{
+    width: 100%;
     text-align: center;
-    border: 1px solid;
-    padding: 10px 15px;
 }
-tr:nth-child(odd) {
+th{
+    border: none;
+    padding: 10px 5px;
+}
+td {
+    border: 1px solid;
+    padding: 12px 5px;
+}
+tr:nth-child(even) {
     background-color: rgb(221, 239, 221);
 }
 .available-courses-table{
-    margin-left: 10%;
     margin-right: 20%;
 }
-.selected-courses-table{
-    margin-right: 10%;
-}
+
 .selected {
-    background-color: lightskyblue;
+    background-color: deepskyblue;
 }
